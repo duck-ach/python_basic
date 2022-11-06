@@ -2,7 +2,8 @@
 print(1+1) # 2
 print(3-2) # 1
 print(5*2) # 10
-print(6/3) # 2
+print(6/3) # 2.0
+print(6//3) # 2
 
 # 제곱
 print(2**3) # 2^3 = 8
@@ -46,15 +47,13 @@ print((2 + 3) * 4) # 20
 number = 2 + 3 * 4 # 14
 print(number)
 
-number = number + 2 # 16
+number = number + 2
 print(number) # 16
-
-number += 2 # number + 2 = 18
-print(number) # 18
+number += 2 
+print(number) # number + 2 = 18
 number *= 2 # 36
 print(number) # 36
-# 0으로 나눌 수 없다. (어떤 언어든 마찬가지)
-number //= 2 # 18
+number /= 2 # 18
 print(number) # 18.0 # '/'를 하면 몫을 소수점으로 표시해주고, '//'를 하면 몫만 표시
 number -= 2 # 16
 print(number) # 16
@@ -70,10 +69,6 @@ print(min(5, 12)) # 최소값 5
 print(round(3.14)) # 소수점 반올림 3
 print(round(4.99)) # 소수점 반올림 5
 
-from math import * # math라이브러리안에 있는 모든 것을 이용하겠다.
-print(floor(4.99)) # 소수점 내리기 4
-print(ceil(3.14))  # 소수점 올리기 4
-print(sqrt(16))    # 제곱근 4
 
 #########################################################
 # 랜덤함수
@@ -103,7 +98,6 @@ print(randrange(1, 46)) # 1 ~ 45 이하의 임의의 값 생성
 print(randrange(1, 46)) # 1 ~ 45 이하의 임의의 값 생성
 
 # randint() 함수
-print(randint(1, 45)) # 1 ~ 45 이하의 임의의 값 생성
 print(randint(1, 45)) # 1 ~ 45 이하의 임의의 값 생성
 print(randint(1, 45)) # 1 ~ 45 이하의 임의의 값 생성
 print(randint(1, 45)) # 1 ~ 45 이하의 임의의 값 생성
