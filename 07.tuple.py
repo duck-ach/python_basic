@@ -13,4 +13,4 @@ hobby = "코딩"
 print(name, age, hobby)
 
 # 튜플
-(name, age, hobby) = ("김종국, 20, 코딩")
+(name, age, hobby) = ("김종국", 20, "코딩")
